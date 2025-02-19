@@ -1,0 +1,21 @@
+	Analisis dan Diskusi
+
+Analisis:
+Dalam percobaan ini, ketika program dijalankan, sistem akan menampilkan tiga frame utama, yaitu frame utama, frame mask, dan frame hasil (result). Jika sebuah objek berwarna merah terdeteksi oleh kamera, maka pada frame hasil hanya warna merah yang akan ditampilkan, sedangkan warna lainnya akan diubah menjadi hitam. Sementara itu, pada frame mask, area yang terdeteksi sebagai warna merah akan ditampilkan dalam warna putih, sedangkan warna selain merah akan tetap berwarna hitam.
+Kemampuan sistem dalam mendeteksi dan memfilter warna merah ini didasarkan pada penggunaan model ruang warna HSV (Hue, Saturation, Value). Ketika kamera menangkap gambar dan mengonversinya ke format HSV, program akan mencari warna merah berdasarkan rentang nilai Hue, Saturation, dan Value yang telah ditentukan. Setelah itu, sistem akan membuat masker biner yang menyoroti area berwarna merah, lalu menggabungkannya dengan citra asli sehingga hanya bagian yang memiliki warna merah yang tetap terlihat.
+Penerapan metode deteksi warna merah menggunakan HSV Color Filtering memiliki berbagai manfaat dalam sistem kendali cerdas (Intelligent Control Systems). Salah satu aplikasinya adalah dalam bidang navigasi dan kontrol robotik, di mana deteksi warna merah dapat dimanfaatkan sebagai penanda (marker) untuk membantu robot dalam proses navigasi secara otomatis..
+  Diskusi:
+1.	Peningkatan Sistem Kontrol Berbasis Computer Vision dengan AI
+Kecerdasan buatan (Artificial Intelligence/AI) berperan dalam meningkatkan sistem kontrol berbasis Computer Vision dengan memperbaiki tingkat akurasi dalam pendeteksian objek. Salah satu pendekatan yang digunakan adalah deep learning, yang mampu mengenali objek dengan tingkat akurasi yang lebih tinggi dibandingkan metode konvensional. Selain itu, AI juga memungkinkan sistem kontrol bekerja secara adaptif, sehingga dapat menyesuaikan diri terhadap perubahan lingkungan atau kondisi baru berdasarkan data yang diperoleh dari Computer Vision..
+2.	Analisis Keunggulan dan Keterbatasan Metode Deteksi Objek Berbasis Warna
+          
+Keunggulan:
+•	Metode deteksi objek berbasis warna memiliki algoritma yang relatif sederhana, sehingga         lebih mudah dan cepat dalam implementasinya.
+•	Teknik ini dapat menghasilkan tingkat akurasi yang cukup tinggi dalam kondisi pencahayaan yang stabil.
+
+Kekurangan:
+•	  Metode ini sangat sensitif terhadap perubahan pencahayaan, yang dapat mempengaruhi hasil deteksi.
+•	 Kesulitan dalam mendeteksi objek dengan pergerakan cepat, serta rentan terhadap perubahan sudut dan posisi kamera.
+3.	Upaya Peningkatan Akurasi dalam Sistem Deteksi Objek
+Untuk meningkatkan akurasi dalam sistem deteksi objek, pemilihan model deteksi yang sesuai menjadi faktor krusial. Selain itu, penggunaan dataset berkualitas dengan jumlah yang memadai dapat meningkatkan ketepatan sistem dalam mengidentifikasi objek, sehingga menghasilkan deteksi yang lebih presisi dan andal.
+Copy Patch to installation folder and apply it
